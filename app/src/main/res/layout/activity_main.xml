@@ -3,58 +3,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tvMainTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:background="@color/colorAccent"
-        android:gravity="center"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="314dp"
-        tools:text="Hola Platzi, curso de interface" />
-
-    <TextView
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="160dp"
         android:layout_height="120dp"
-        android:textSize="20sp"
-        tools:background="@color/red"
-        android:gravity="center"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="322dp"
-        tools:text="Hola Platzi, curso de interface" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:background="@color/colorAccent"
-        tools:ignore="MissingConstraints"
-        android:gravity="center"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="442dp"
-        tools:text="Hola Platzi" />
+        android:src="@drawable/logo"
+        android:textAlignment="center"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <EditText
-        android:background="@color/colorPrimaryDark"
-        android:inputType="number"
-        android:layout_width="wrap_content"
+        android:hint="@string/hint_usuario"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Escribe tu nombre"
-        android:gravity="center"
-        tools:ignore=",Autofill,HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="450dp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:hint="@string/hint_password"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:src="@mipmap/logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="130dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:text="@string/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="458dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="145dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
