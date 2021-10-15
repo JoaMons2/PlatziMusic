@@ -13,33 +13,48 @@
         android:textAlignment="center"
         tools:ignore="ContentDescription,MissingConstraints"
         tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"/>
 
     <EditText
+        android:layout_width="386dp"
+        android:layout_height="19dp"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/vector_person"
+        android:drawablePadding="7dp"
         android:hint="@string/hint_usuario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="120dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="124dp" />
 
     <EditText
-        android:hint="@string/hint_password"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/vector_lock"
+        android:drawablePadding="7dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="130dp"
-        tools:ignore="MissingConstraints" />
+        android:hint="@string/hint_password"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="143dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="MissingConstraints"/>
+
 
     <Button
-        android:text="@string/button_login"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_login"
         android:textAlignment="center"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="145dp" />
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="724dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
