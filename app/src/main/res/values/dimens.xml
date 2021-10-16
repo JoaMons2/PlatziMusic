@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="item_img_height">128dp</dimen>
-    <dimen name="app_bar_height">180dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
-    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="width_logo">160dp</dimen>
+    <dimen name="height_logo">120dp</dimen>
+
+
+    <dimen name="margin_default">12dp</dimen>
 </resources>
