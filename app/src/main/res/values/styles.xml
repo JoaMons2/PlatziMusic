@@ -9,7 +9,6 @@
     </style>
 
     <style name="AppTheme.Red" parent="AppTheme">
-        <item name="android:background">@color/red</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
     </style>
